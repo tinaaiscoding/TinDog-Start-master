@@ -1,0 +1,166 @@
+/* Html */
+body {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+.title-heading {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.small-heading {
+  font-size: 1.25rem;
+  padding-top: 20px;
+}
+
+/* Background & text colour */
+.colored-section {
+  background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+#testimonials, #press {
+  background-color: #ef8172;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Nagivation bar */
+.navbar {
+  padding-bottom: 4.5rem
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 15px;
+}
+
+.nav-link {
+  font-size: 1.15rem;
+  font-weight: 100;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.iphone-dog {
+  position: absolute;
+  right: 23%;
+  transform: rotate(25deg);
+  width: 22%;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Feature */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feat-col {
+  padding: 0 45px;
+}
+
+.feat-icon {
+  color: #ef8172;
+}
+
+.feat-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+.testimonial-image {
+  border-radius: 100%;
+  margin: 20px;
+  width: 60px;
+}
+
+/* Press */
+#press {
+  padding-bottom: 70px;
+}
+
+.press-logo {
+  margin: 0 20px 20px;
+  width: 170px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 5%;
+}
+
+
+.pricing-col {
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+}
+
+.card {
+  width: 85%
+}
+
+/* Call to Action */
+.download-button1 {
+  margin: 5% 2% 0;
+}
+
+/* Footer */
+#footer {
+  padding: 4%;
+}
+
+.footer-icon {
+  margin: 10px 12.5px;
+}
+
+@media (max-width: 990px) {
+
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .iphone-dog {
+    position: static;
+    transform: rotate(0);
+    width: 50%
+  }
+}
